@@ -1,0 +1,6 @@
+kfp==1.8.13
+mlserver==1.1.0
+kubernetes==22.6.0
+pick==2.0.2
+boto3==1.24.80
+python-dateutil==2.8.0
