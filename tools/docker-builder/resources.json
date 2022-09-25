@@ -1,0 +1,19 @@
+{
+    "context": "git://github.com/noheroes/mlops-infra",
+    "kfp": {
+        "context-sub-path": "kfp",
+        "destination": "noheroes/kfp"
+    },
+    "jupyter": {
+        "context-sub-path": "jupyter",
+        "destination": "noheroes/jupyter"
+    },
+    "base-python": {
+        "context-sub-path": "base-python",
+        "destination": "noheroes/base-python"
+    },
+    "regression": {
+        "context-sub-path": "regression",
+        "destination": "noheroes/regression"
+    }
+}
