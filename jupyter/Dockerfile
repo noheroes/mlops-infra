@@ -23,7 +23,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
 
 # install - docker
 RUN apt-get -yq update \
- && apt-get install -yq docker.io scp
+ && apt-get install -yq docker.io openssh-client
 
 # setup environment for conda
 ENV CONDA_DIR /opt/conda
