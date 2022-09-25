@@ -1,0 +1,6 @@
+kfp==1.8.13
+pandas==1.2.4
+lightgbm==3.3.2
+scikit-learn==1.1.2
+joblib==1.1.0
+boto3
