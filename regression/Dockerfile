@@ -1,4 +1,4 @@
-FROM base-python:latest
+FROM noheroes/base-python:latest
 
 # install - requirements.txt
 COPY --chown=jovyan:users requirements.txt /tmp
