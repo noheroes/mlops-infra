@@ -1,9 +1,9 @@
 jupyterlab==3.4.7
 notebook==6.4.0
 ipykernel==5.5.5
+elyra
 kubernetes
 pick==2.0.2
-elyra
 mlserver==1.1.0
 python-dateutil==2.8.0
 boto3==1.24.80
