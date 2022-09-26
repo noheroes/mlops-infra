@@ -1,7 +1,7 @@
 jupyterlab==3.4.7
 notebook==6.4.0
 ipykernel==5.5.5
-kubernetes==22.6.0
+kubernetes
 pick==2.0.2
 elyra==3.11.1
 mlserver==1.1.0
