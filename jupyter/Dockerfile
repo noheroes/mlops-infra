@@ -6,7 +6,7 @@ USER root
 # args - software versions
 ARG MINIFORGE_ARCH="x86_64"
  # renovate: datasource=github-tags depName=conda-forge/miniforge versioning=loose
-ARG MINIFORGE_VERSION=4.14.0
+ARG MINIFORGE_VERSION=3-4.14.0-0
 ARG PIP_VERSION=21.1.2
 ARG PYTHON_VERSION=3.8.10
 ARG USER_DEFAULT=jovyan
