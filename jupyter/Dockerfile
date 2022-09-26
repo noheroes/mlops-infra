@@ -46,6 +46,7 @@ RUN curl -sL "https://github.com/conda-forge/miniforge/releases/download/${MINIF
  && rm /tmp/Miniforge3.sh.sha256 \
  && /bin/bash /tmp/Miniforge3.sh -b -f -p ${CONDA_DIR} \
  && rm /tmp/Miniforge3.sh \
+ && conda config --system --set channel_priority false
  && conda config --system --set auto_update_conda false \
  && conda config --system --set show_channel_urls true \
  && echo "conda ${MINIFORGE_VERSION:0:-2}" >> ${CONDA_DIR}/conda-meta/pinned \
